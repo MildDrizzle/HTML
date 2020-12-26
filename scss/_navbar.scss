@@ -12,6 +12,9 @@ nav {
 
 .nav-item {
   a {
+    display: flex;
+    align-items: center;
+    height: 100% !important;
     &:hover {
       color: white !important;
       background-color: #0bb5ff;
