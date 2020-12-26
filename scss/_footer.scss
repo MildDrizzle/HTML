@@ -1,0 +1,28 @@
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 5rem;
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .social-icons {
+    display: flex;
+
+    .social-icon {
+      a {
+        color: white;
+      }
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 0.2rem;
+      height: 40px;
+      width: 40px;
+      font-size: 1.3rem;
+      background-color: #0bb5ff;
+      border-radius: 0.18rem;
+    }
+  }
+}

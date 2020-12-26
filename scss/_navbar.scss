@@ -1,0 +1,25 @@
+nav {
+  border-bottom: 1.7px solid rgb(197, 197, 197);
+  padding: 0 !important;
+  position: sticky !important;
+  z-index: 1;
+  top: 0;
+  a {
+    padding: 1rem 1rem !important;
+    font-size: larger;
+  }
+}
+
+.nav-item {
+  a {
+    &:hover {
+      color: white !important;
+      background-color: #0bb5ff;
+    }
+  }
+}
+
+.navbar-brand {
+  font-size: x-large;
+  letter-spacing: 0.3rem;
+}

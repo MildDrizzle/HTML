@@ -1,0 +1,81 @@
+//Contact Form
+.contact-form {
+  min-height: 43rem;
+  background: url(https://images.unsplash.com/photo-1506277204481-fb831bb22403?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+  color: white;
+
+  .text {
+    padding: 2rem 0;
+  }
+
+  button {
+    color: white;
+    border: #0bb5ff 1px solid;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    &:hover {
+      background-color: #0bb5ff;
+    }
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  input {
+    background-color: rgba(0, 0, 0, 0);
+    border: gray 0.124rem solid;
+    color: #0bb5ff;
+    margin: 0.5rem 0;
+    border-radius: 0.18rem;
+    min-width: 40%;
+    min-height: 4rem;
+    &:hover {
+      outline: #0bb5ff;
+      border: #0bb5ff 0.124rem solid;
+    }
+  }
+  input::-webkit-input-placeholder {
+    padding: 1rem;
+    font-weight: 600;
+  }
+  textarea::-webkit-input-placeholder {
+    padding: 1rem;
+    font-weight: 600;
+  }
+  textarea {
+    background-color: rgba(0, 0, 0, 0);
+    border: gray 0.124rem solid;
+    outline: gray;
+    color: #0bb5ff;
+    margin: 0.5rem 0;
+    border-radius: 0.18rem;
+    min-width: 40%;
+    &:hover {
+      outline: #0bb5ff;
+      border: #0bb5ff 0.124rem solid;
+    }
+  }
+  .cb-button {
+    min-width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    input {
+      min-width: 10%;
+      min-height: 1rem;
+    }
+    span {
+      min-width: 30%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    button {
+      padding: 1rem;
+    }
+  }
+}

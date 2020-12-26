@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 20rem;
+  p {
+    padding: 0 14rem;
+    text-align: justify;
+  }
+}

@@ -1,0 +1,51 @@
+.portfolio {
+  margin: 8rem;
+  .portfolio_column {
+    position: relative;
+    margin-top: 1rem;
+  }
+  .col-lg-4 {
+    padding: 0px !important;
+    margin-bottom: 1rem;
+  }
+  .portfolio-images {
+    height: 15rem;
+    width: 95%;
+
+    margin-right: 3rem;
+  }
+
+  .overlay-icons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    width: 95%;
+
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    background-color: #0bb6ffd8;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    .overlay-icon {
+      color: white;
+      margin: 0.5rem;
+      padding: 1rem;
+      font-size: large;
+      font-weight: 200;
+      border: 0.1rem solid white;
+      border-radius: 0.5rem;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}

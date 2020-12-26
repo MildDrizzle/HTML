@@ -1,0 +1,27 @@
+.features {
+  overflow: hidden;
+  margin: 0;
+  background-color: rgb(236, 232, 232);
+  p {
+    width: 60%;
+    text-align: center;
+  }
+  .icon-div {
+    height: 5rem;
+    width: 5rem;
+    background: linear-gradient(
+      to right,
+      #0bb5ff 0%,
+      #0bb5ff 50%,
+      #4dc5f8 50%,
+      #4dc5f8 100%
+    );
+    i {
+      color: white;
+      font-size: 2.5rem;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
